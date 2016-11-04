@@ -1,0 +1,134 @@
+body,
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+dd,
+dl,
+input,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font: 12px "微软雅黑";
+}
+img {
+  border: 0;
+}
+.font {
+  border: none;
+  outline: none;
+}
+.login-box {
+  width: 100%;
+  height: auto;
+}
+.login-box .header {
+  background: #fafafa;
+  height: 44px;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.header .header-t {
+  background: url(../images/ed.png) no-repeat 15px 13px;
+  -webkit-background-size: 12px 20px;
+  -moz-background-size: 12px 20px;
+  padding: 13px 0 13px 15px;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.header .login-title {
+  line-height: 44px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.login #form {
+  padding: 0 15px;
+}
+.login #form .login-img {
+  width: 100%;
+  height: 80px;
+  margin: 10px 0 15px;
+}
+.login #form .login-img .img {
+  width: 185px;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 15px;
+  background: url(../images/logo2.png) no-repeat 50% 50%;
+  background-size: 185px 60px;
+}
+.login #form .pp {
+  height: 50px;
+  padding: 0 14px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+.login #form .pp .input {
+  width: 100%;
+  font-size: 16px;
+  height: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #333;
+  border: none;
+  outline: none;
+}
+.login #form #pp3 {
+  margin-bottom: 20px;
+  padding: 0;
+  border: 1px solid #367cff;
+}
+.login #form #pp3 .button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #367cff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+}
+.login #form .hide-show {
+  height: 60px;
+  margin: 10px auto 0;
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+.login-w a {
+  font-size: 14px;
+  color: #9ab1d1;
+}
+.footer {
+  position: relative;
+  bottom: -200px;
+  font-size: 14px;
+  text-align: center;
+}
+.footer a {
+  color: #1b66c7;
+}

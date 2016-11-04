@@ -1,0 +1,439 @@
+@import url(lks_base.css);
+.baidu_content{
+    width: 100%;
+    height: auto;
+    zoom: 1;
+}
+.baidu_content:after,.hide_head .hide_head_bottom:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.baidu_content .hide_head{
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/8_3.jpg);
+    background-color: rgb(124, 153, 181);
+    display: none;
+}
+.hide_head .hide_head_top{
+    position: relative;
+    padding: 12px 0 8px 14px;
+}
+.hide_head_top .top_one{
+    height: 25px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.hide_head_top .top_one .dingw{
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 2px;
+}
+.hide_head_top .top_one span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.hide_head_top .top_one .img_dingw{
+    font-size: 18px;
+    position: absolute;
+    left: 3px;
+    top: -2px;
+    color: #fff;
+
+}
+.top_one .city{
+    color: #fff;
+    font-size: 14px;
+}
+.hide_head_top .top_one .top_j{
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-right: 20px;
+}
+.top_one .top_j .img_j{
+    margin: 4px;
+    color: #fff;
+}
+.hide_head .hide_head_top .top_two{
+    margin-top: 5px;
+    height: 73px;
+    line-height: 73px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+.top_two .weath{
+    font-size: 56px;
+}
+.top_two .tianqi{
+    font-size: 46px;
+    position: relative;
+    top: -2px;
+    left: 4px;
+    width: 60px;
+    line-height: 60px;
+}
+.top_two .tianqi .img_tianqi{
+    font-size: 36px;
+    margin-left: 15px;
+}
+.top_two .cont{
+    margin-left: 24px;
+}
+.top_two .gd{
+    display: block;
+    position: absolute;
+    right: 14px;
+    bottom: 13px;
+    height: 18px;
+    line-height: 18px;
+    width: 57px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.top_two .top_three{
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+}
+.top_three span,.top_three p{
+    color: #fff;
+}
+.hide_head .hide_head_bottom{
+    zoom: 1;
+    padding: 9px 0 8px 0;
+    background-color: rgba(0, 0, 0, .1);
+}
+.hide_head_bottom .weath_k{
+    width: 93.75px;
+    float: left;
+}
+.weath_k p{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.weath_k .iconfont{
+    font-size: 20px;
+    margin: 8px auto 0;
+}
+.baidu_content .header{
+    height: 35px;
+    width: 100%;
+    background: #F1F1F1;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.header .header_left{
+    position: absolute;
+    z-index: 1;
+    padding: 0 6px;
+    height: 40px;
+}
+.header_left .iconfont{
+    font-size: 25px;
+    color: #B7BABE;
+    float: left;
+}
+.header_left .weath{
+    color: #8C8C8C;
+    font-size: 20px;
+    float: left;
+    margin-left: 3px;
+}
+.header_left .left_k{
+    padding: 0 2px 0 7px;
+    float: left;
+}
+.left_k .span{
+    height: 13px;
+    line-height: 13px;
+    color: #999;
+}
+.header .jg_xia{
+    padding-top: 10px;
+    float: left;
+}
+.header .right_span{
+    float: right;
+    margin-right:10px;
+    padding: 3px;
+}
+.header .right_span .iconfont{
+    color: #9b9b9b;
+    font-size: 20px;
+    line-height: 20px;
+}
+.logo{
+    background: #F1F1F1;
+    height: 55px;
+    padding: 17px 0 15px;
+}
+.logo img{
+    width:175px;
+    height:55px;
+    margin: 0 auto;
+    display: block;
+}
+#form{
+    height: 42px;
+    background: #F1F1F1;
+    position: relative;
+}
+#form .form_k{
+    margin: 0 3%;
+}
+#form .input{
+    display: block;
+    padding: 7px 42px 7px 6px;
+    width:62%;
+    height: 26px;
+    line-height: 28px;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid #949494;
+    float: left;
+}
+#form .button{
+    width: 24%;
+    height: 42px;
+    background: #38f;
+    color: #fff;
+    margin-right: -1px;
+    border:none;
+    font-size: 16px;
+    outline: none;
+}
+#form .yin{
+    position: absolute;
+    top: 0;
+    right: 32%;
+    z-index: 10;
+}
+#form .cuo{
+    position: absolute;
+    top: 0;
+    right: 26%;
+    width: 35px;
+    height: 42px;
+    display: none;
+    background: url(../images/clear.png) no-repeat center;
+    background-size: 16px;
+    z-index: 2;
+}
+#form .yin:after{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: -12px;
+    border: 4px solid transparent;
+    border-top-color: #717077;
+}
+#form .yin_top:after{
+    border-color: #fff;
+    border-bottom-color: #717077;
+    top: 14px;
+}
+#form .yin:before{
+    content: "";
+    display: inline-block;
+    margin-top: 10px;
+    height: 20px;
+    width: 14px;
+    background: url(../images/yin.png) 1px 0 no-repeat;
+    background-size: 33px 19px;
+}
+#form .baidu_d{
+    position: absolute;
+    width: 106px;
+    top: 51px;
+    right: 10%;
+    height: 38px;
+    text-align: left;
+    z-index:9;
+    background-color: #f0f0f0;
+    border: 1px solid #cdcdcd;
+    display: none;
+}
+.baidu_d:after{
+    border: 0;
+    top: -1px;
+    left: 22px;
+    width: 8px;
+    height: 8px;
+    background: #f0f0f0;
+}
+.baidu_d:before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 23px;
+    -webkit-transform: rotate(45deg);
+    border-top: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    height: 4px;
+    width: 4px;
+    background-color: #f0f0f0;
+    z-index:1;
+}
+.baidu_d .baidu_l{
+    width:53px;
+    height:40px;
+    float:left;
+    text-align: center;
+}
+.baidu_d .baidu_l:nth-child(1){
+    border-right: 1px solid #cdcdcd;
+    margin-left: -1px;
+}
+.baidu_l:after {
+    content: "";
+    display: inline-block;
+    margin-top: 9px;
+    height: 20px;
+    width: 14px;
+    background: url(../images/yin.png) 1px 0 no-repeat;
+    background-size: 33px 19px;
+}
+.qrcode:after{
+    width: 22px;
+    background-position: -13px 0;
+    margin-left: 3px;
+}
+.navs{
+    padding: 17px 0 14px;
+    overflow: hidden;
+    background: #F1F1F1;
+}
+.navs a:first-child, .navs a:nth-child(7) {
+    margin-left: 2%;
+}
+.navs a{
+    float: left;
+    width: 16%;
+    color: #666;
+    text-align: center;
+}
+.navs a i{
+    display: block;
+    margin-bottom: 4px;
+    height: 24px;
+    line-height: 24px;
+}
+.navs .navs_l{
+    margin-top: 24px;
+    display: none;
+}
+.gd_gs  .navs_l{
+    margin-top: 24px;
+    display: block;
+    line-height: 24px;
+}
+.baidu_content .conent{
+    height: 40px;
+    text-align: center;
+    line-height: 41px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 6px;
+    background: #F1F1F1;
+}
+.conent .span_size{
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    width: 16%;
+}
+.conent .active{
+    height: 39px;
+    color: #38f;
+    border-bottom: 2px solid #38f;
+}
+.conent_list a{
+    margin: 0 21px;
+    padding-bottom:15px;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+}
+.conent_list a .titles_top{
+    padding-top: 11px;
+}
+.conent_list a .conent_title{
+    color: #333;
+    font-size: 18px;
+    line-height: 26px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+.conent_list a .conent_imgs{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    zoom: 1;
+}
+.conent_list a .conent_imgs:after,.conent_imgs2:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.conent_imgs .img_t{
+    width: 33.09%;
+    margin-right: 1px;
+    position: relative;
+    padding-top: 21.955%;
+    vertical-align: top;
+    float: left;
+}
+.conent_imgs .img_t:nth-of-type(3){margin-right: 0;}
+.conent_imgs .img_t img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.conent_list .conent_img{
+    width: 33.65%;
+    padding-top: 21.955%;
+    position: relative;
+    float: left;
+}
+.conent_list a .conent_titles{
+    width: 65.88%;
+    float: right;
+}
+.conent_imgs2{zoom:1}
+.conent_imgs2 .img_t2{
+    width: 33.65%;
+    height: 0;
+    padding-top: 21.955%;
+    position: relative;
+    float: left;
+}
+.conent_imgs2 .img_t2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.conent_titles .titles_t2{
+    margin-left: 14px;
+}
+.conent_list2 a{
+    padding: 15px 0;
+}
+.conent_list2 .conent_imgs2{
+    margin: 0;
+}

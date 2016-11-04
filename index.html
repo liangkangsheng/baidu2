@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度一下</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="Keywords" content="百度，新闻，百度新闻"/>
+	<meta name="description" content="百度新闻，热点"/>
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<!--<link rel="stylesheet" href="css/index.css">-->
+	<link rel="stylesheet" href="less/baidu_index.less">
+	<link rel="stylesheet" href="less/baidu_index.css">
+	<link rel="shortout icon" href="images/iocn.png">
+	<script src="js/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<img src="" id="img" alt="" >
+<div class="baidu_content">
+	<div class="hide_head">
+		<div class="hide_head_top">
+			<div class="top_one">
+				<span class="dingw"><i class="iconfont icon-dingwei img_dingw"></i></span>
+				<span class="city" data-city="北京">北京</span>
+				<span class="top_j"><i class="iconfont icon-jiantou-copy-copy-copy-copy-copy-copy-copy img_j"></i></span>
+			</div>
+			<div class="top_two">
+				<span class="weath"></span>
+				<span class="tianqi"><i class="iconfont icon-tianqilei img_tianqi"></i></span>
+				<span class="cont">阵雨&nbsp;微风&lt;2级</span>
+				<a href="#" class="gd">查看更多</a>
+			</div>
+            <div class="top_three">
+				<span>最低温度&nbsp;:&nbsp;<span class="weath"></span></span>
+				<p>空气质量&nbsp;:&nbsp;<span class="api"></span></p>
+			</div>
+		</div>
+		<div class="hide_head_bottom">
+			<div class="weath_k"><p>明天</p><p class="iconfont icon-tianqilei"></p><p>29°/20°</p></div>
+			<div class="weath_k"><p>周日</p><p class="iconfont icon-tianqilei"></p><p>29°/20°</p></div>
+			<div class="weath_k"><p>周一</p><p class="iconfont icon-tianqilei"></p><p>29°/20°</p></div>
+			<div class="weath_k"><p>周二</p><p class="iconfont icon-tianqilei"></p><p>29°/20°</p></div>
+		</div>
+	</div>
+	<div class="header_k">
+		<div class="header">
+			<div class="header_left">
+				<span class="iconfont icon-tianqilei"></span>
+				<span class="weath"></span>
+				<span class="left_k">
+					<span class="city span"></span>
+					<br />
+					<span class="span">空气 <span class="api span"></span></span>
+				</span>
+				<span class="jg_xia"><i class="iconfont icon-jiantou-copy"></i></span>
+			</div>
+			<div class="skgin right_span" style="font-size:20px;"><a href="#" class="iconfont icon-huanfu" style="font-size: 28px"></a></div>
+			<div class="login right_span" ><a href="baidu-login.html" class="iconfont icon-gerenzhongxin"></a></div>
+		</div>
+		<div class="logo"><img src="images/logo_top_ca79a146.png" alt="百度一下,你就知道"></div>
+		<form action="" id="form">
+			<div class="form_k">
+				<input type="text" class="input" maxlength="15">
+				<input type="button" class="button" value="百度一下">
+				<div class="yin"></div>
+				<div class="cuo"></div>
+				<div class="baidu_d">
+					<div class="baidu_l qrcode"></div>
+					<div class="baidu_l"></div>
+				</div>
+			</div>
+		</form>
+		<div class="navs">
+			<a href="#"><i class="iconfont icon-xinwen"></i>新闻</a>
+			<a href="#"><i class="iconfont icon-xiaoshuo"></i>小说</a>
+			<a href="#"><i class="iconfont icon-shipin"></i>视频</a>
+			<a href="#"><i class="iconfont icon-nuomi"></i>糯米</a>
+			<a href="#"><i class="iconfont icon-ditu"></i>地图</a>
+			<a href="#" class="gd_g"><i class="iconfont icon-xiangshangyuanjiantou" style="display:none"></i><i class="iconfont icon-xiangxiayuanjiantou"></i>更多</a>
+			<a href="#" class="navs_l"><i class="iconfont icon-tieba"></i>贴吧</a>
+			<a href="#" class="navs_l"><i class="iconfont icon-tupian"></i>图片</a>
+			<a href="#" class="navs_l"><i class="iconfont icon-diqiu1"></i>网址</a>
+			<a href="#" class="navs_l"><i class="iconfont icon-diqiu"></i>推广</a>
+			<a href="#" class="navs_l"><i class="iconfont icon-changyonglogo48"></i>音乐</a>
+		</div>
+		<div class="conent">
+			<span class="span_size">关注</span>
+			<span class="span_size active">推荐</span>
+		</div>
+	</div>
+	<div class="conent_n">
+       <ul class="conent_ul"></ul>
+	</div>
+	<div class="peeler">
+		<div class="petit">
+			<h2>首页换肤</h2>
+			<a href="#" class="fhzy"></a>
+			<a href="#" class="busy"></a>
+		</div>
+		<div class="ler">
+			<div class="lerxk kht" name="images/b1.jpg" for="#D1D1D3" onclick="fu(this)">
+				<img src="images/p1.jpg" alt="">
+				<p>九条命</p>
+			</div>
+			<div class="lerxk" name="images/b2.jpg" for="#D1D1D3" onclick="fu(this)">
+				<img src="images/p2.jpg" alt="">
+				<p>九条命</p>
+			</div>
+
+			<div class="lerxk kht" name="images/b3.jpg" for="#043D84" onclick="fu(this)">
+				<img src="images/p3.jpg" alt="">
+				<p>樱桃小丸子</p>
+			</div>
+			<div class="lerxk" name="images/b4.jpg" for="#FDD542" onclick="fu(this)">
+				<img src="images/p4.jpg" alt="">
+				<p>微微一笑很倾城</p>
+			</div>
+
+			<div class="lerxk kht" name="images/b5.jpg" for="#071530" onclick="fu(this)">
+				<img src="images/p5.jpg" alt="">
+				<p>谍影重重5</p>
+			</div>
+			<div class="lerxk" name="images/b6.jpg" for="#030D26" onclick="fu(this)">
+				<img src="images/p6.jpg" alt="">
+				<p>谍影重重5</p>
+			</div>
+
+			<div class="lerxk kht" name="images/b7.jpg" for="#252734" onclick="fu(this)">
+				<img src="images/p7.jpg" alt="">
+				<p>陈伟霆</p>
+			</div>
+			<div class="lerxk" name="images/b8.jpg" for="#252734" onclick="fu(this)">
+				<img src="images/p8.jpg" alt="">
+				<p>张艺兴</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="js/baidu.js"></script>
+</html>
